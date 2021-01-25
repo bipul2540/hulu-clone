@@ -29,8 +29,8 @@ function Navbar({ setSelectedOption }) {
       <h2 onClick={() => setSelectedOption(request.fetchComedyMovies)}>
         Comedy
       </h2>
-      <h2 onClick={() => setSelectedOption(request.fetchTrending)}>
-        South indian
+      <h2 onClick={() => setSelectedOption(request.fetchNetflixOriginals)}>
+        Netflix
       </h2>
     </div>
   );

@@ -10,7 +10,7 @@ export default {
   fetchRomaceMovies: `/discover/movie?api_key=${API_KEY}&with_genres=10749`,
   fetchDocumentries: `/discover/movie?api_key=${API_KEY}&with_genres=99`,
   fetchWestern: `/discover/movie?api_key=${API_KEY}&with_genres=37`,
-  fetchMystery: `/discover/movie?api_Key=${API_KEY}&with_genres=9648`,
+  fetchMystery: `/discover/movie?api_Key=${API_KEY}&with_genres=53`,
   fetchTv: `/discover/movie?api_Key=${API_KEY}&with_genres=10770`,
 };
 
