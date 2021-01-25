@@ -13,6 +13,8 @@ function Navbar() {
       <h2>Sci-fi</h2>
       <h2>Animation</h2>
       <h2>Movie</h2>
+      <h2>Bollywood</h2>
+      <h2>South indian</h2>
     </div>
   );
 }

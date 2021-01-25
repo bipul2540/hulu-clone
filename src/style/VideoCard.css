@@ -1,0 +1,20 @@
+.videoCard {
+  color: white;
+  width: fit-content;
+  min-height: 300px;
+  padding: 20px;
+  transition: all ease 0.2s;
+}
+.videoCard:hover {
+  transform: scale(1.09);
+}
+
+.videoCard__image img {
+  height: 200px;
+  object-fit: cover;
+  width: 300px;
+}
+
+.videoCard__info h2 {
+  padding: 4px;
+}

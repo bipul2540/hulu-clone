@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
+import Result from "./components/Result";
 import "./style/App.css";
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
     <div className="app">
       <Header />
       <Navbar />
-      {/** Result */}
+      <Result />
     </div>
   );
 }
