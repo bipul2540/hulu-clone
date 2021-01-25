@@ -1,9 +1,11 @@
 .videoCard {
   color: white;
-  width: fit-content;
+  width: 310px;
   min-height: 300px;
   padding: 20px;
   transition: all ease 0.2s;
+  cursor: pointer;
+  margin: 10px;
 }
 .videoCard:hover {
   transform: scale(1.09);
@@ -17,4 +19,34 @@
 
 .videoCard__info h2 {
   padding: 4px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.videoCard__info .desc {
+  font-size: 14px;
+}
+
+.videoCard__info .desc span {
+  font-size: 11px;
+  opacity: 0.5;
+}
+
+.videoCard__info .desc span:hover {
+  opacity: 1;
+}
+
+.videoCard__info .desc2 {
+  display: none;
+  flex-direction: row;
+  font-size: 13px;
+  align-items: center;
+}
+.videoCard:hover .videoCard__info .desc2 {
+  display: flex;
+}
+
+.videoCard__info .desc2 .MuiSvgIcon-root {
+  font-size: 12px;
+  margin-left: 5px;
 }
